@@ -1,0 +1,31 @@
+body{
+background-color: rgb(228, 234, 249);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: cornflowerblue;
+}
+    
+    h1{
+        color: maroon;
+        background-color: rgb(254, 240, 33);
+        align-self: center ;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        
+    }
+
+    h2{
+        color: maroon;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+
+    h3{
+        color: maroon;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+
+    p{
+        margin: auto;
+        color: rgb(22, 158, 237);
+    }
