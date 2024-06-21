@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Multimedia</title>
+    <!-- external style -->
+     <link rel="stylesheet" href="main.css">
+
+    <!-- embedded styles -->
+     <style>
+        body{
+            background-image: url('skull-4248008_1280.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: blueviolet;
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 13pt;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .imgStyles{
+            width: 300px;
+        }
+     </style>
+</head>
+<body>
+    <!-- Add a heaer to our page  -->
+     <header>
+        <!--the h1 tag will display the page title; there should be 1 and only 1 h1 tag  -->
+        <h1>Multimedia Examples</h1>
+     </header>
+
+     <main>
+       <p>CSS was first proposed as a standard by the W3C in 1996 </p>
+       
+        <!-- Audio file to our page -->
+         <audio controls>
+            <source src="horror-background-atmosphere-6-199279.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- add video file to our page -->
+         <video controls width="320" height="240">
+            <source src="138500-769724717_small.mp4" type="video/mp4">
+         </video>
+
+         <!-- add an image with the img tag; always include alternative tet for when the image can't load or a 
+          screen reader is being used -->
+          <!-- TODO: resize image later -->
+          <!-- inline styles - style tag on the element-->
+         <img src="skull-4248008_1280.jpg" alt="skull smoke in mirror"  class="imgStyles">
+     </main>
+</body>
+</html>
